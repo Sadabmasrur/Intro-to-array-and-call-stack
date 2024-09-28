@@ -11,6 +11,10 @@
     <p id="demo3"></p>
     <p id="demo4"></p>
 
+    <p id="join"></p>
+    <p id="firstpop"></p>
+    <p id="secondpop"></p>
+
     <script>
       var codingal = ["Coding", "Magic", "Learn"];
 
@@ -21,6 +25,17 @@
       document.getElementById("demo3").innerHTML = codingal[2];
 
       document.getElementById("demo4").innerHTML = codingal;
+
+      var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+      document.getElementById("join").innerHTML = fruits.join(" * ");
+
+      document.getElementById("firstpop").innerHTML = fruits;
+
+      fruits.pop();
+      fruits.pop();
+
+      document.getElementById("secondpop").innerHTML = fruits;
     </script>
   </body>
 </html>
